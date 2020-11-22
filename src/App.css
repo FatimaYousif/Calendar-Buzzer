@@ -1,0 +1,103 @@
+:root{
+   --primary :#10ac84;
+   --secondary: #222f3e;
+   --dim-font: #576574; 
+}
+
+
+.App {
+  height: 93.8vh;
+  margin: 1rem 0;
+}
+button{
+  background-color: var(--secondary);
+  padding:1rem;
+  color: #f1f1f1;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #334861;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: var(--primary);
+  /* min-height: 100vh; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(8px + 1vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.App-header h1{
+  margin-left:1rem ;
+
+}
+
+.Footer{
+  background-color: #61dafb;
+
+}
+input, textarea{
+  border: none;
+  outline: none;
+
+}
+.container{
+  /* background: yellow; */
+}
+.CreateNote{
+  background: #f1f1f1;
+  width: 500px;
+  margin: 0 auto;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  /* height: 300px; */
+  box-shadow: 0  0 20px rgba(0,0,0,0.6);
+}
+.CreateNote form{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}
+.CreateNote form input{
+  /* position: absolute; */
+  padding: 1rem ;
+  font-size: 2rem;
+
+}
+.CreateNote form textarea{
+  /* width: 100%; */
+  padding: 1rem 2rem;
+  resize: none;
+  font-size: 1.4rem;
+}
+.CreateNote form button{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+
+  /* padding: 1rem; */
+  
+}
+.Note{
+  width: 400px;
+  background: #4365aa;
+  /* text-align: left;/ */
+  box-shadow: 0  0 20px rgba(0,0,0,0.6);
+border-radius: 3px;
+}
